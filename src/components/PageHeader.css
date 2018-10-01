@@ -1,6 +1,7 @@
 .PageHeader {
   color: white;
   padding: 15rem 0;
+  border-bottom: 5px solid black;
 }
 
 .PageHeader .BackgroundImage {
