@@ -1,5 +1,4 @@
 .PageHeader {
-  background-color: var(--darkGrey);
   color: white;
   padding: 15rem 0;
 }
@@ -13,13 +12,16 @@
 }
 
 .PageHeader--Title {
-  font-size: 6rem;
+  font-size: 10rem;
   margin-bottom: 0;
+  width: 60%;
 }
 
 .PageHeader--Subtitle {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 6.5rem;
+  color: black;
+  font-family: var(--font-secondary);
 }
 
 .PageHeader .container {
