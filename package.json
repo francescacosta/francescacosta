@@ -31,7 +31,8 @@
     "react-dom": "^16.4.1",
     "react-feather": "^1.1.0",
     "react-helmet": "^5.2.0",
-    "react-markdown": "^3.3.2"
+    "react-markdown": "^3.3.2",
+    "update": "^0.7.4"
   },
   "keywords": [
     "gatsby"
