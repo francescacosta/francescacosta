@@ -1,5 +1,5 @@
 :root {
-  --primary: rebeccapurple;
+  --primary: #f9356e;
   --secondary: #212121;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
@@ -7,6 +7,7 @@
   --danger: #ff3d3d;
   --font-primary: 'din-condensed';
   --font-secondary: 'beloved-script';
+  --font-system: 'Avenir';
   --borderRadius: 3px;
 }
 
@@ -23,7 +24,7 @@ body {
   position: relative;
   background: white;
   color: var(--secondary);
-  font-size: 1.6em;
+  font-size: 2em;
   font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;
@@ -60,6 +61,15 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 100px;
+}
+
+h2 {
+  font-family: var(--font-primary);
+  color: black;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 80px;
 }
 
 pre {
