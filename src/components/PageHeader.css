@@ -23,6 +23,7 @@
   font-size: 6.5rem;
   color: black;
   font-family: var(--font-secondary);
+  line-height: 8rem;
 }
 
 .PageHeader .container {
