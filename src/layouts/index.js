@@ -14,7 +14,7 @@ export default ({ children, data }) => {
   return (
     <Fragment>
       <Helmet defaultTitle={siteTitle} titleTemplate={`%s | ${siteTitle}`}>
-        {/* Add font link tags here */}
+        <link rel="stylesheet" href="https://use.typekit.net/puu0jqh.css" />
       </Helmet>
 
       <Meta
