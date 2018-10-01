@@ -12,9 +12,7 @@ export const ContactPageTemplate = ({
   body,
   title,
   subtitle,
-  featuredImage,
   address,
-  phone,
   email
 }) => (
   <main className="Contact">
@@ -22,11 +20,7 @@ export const ContactPageTemplate = ({
       <title>{title}</title>
     </Helmet>
 
-    <PageHeader
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
+    <PageHeader title={title} subtitle={subtitle} />
 
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
@@ -46,11 +40,7 @@ export const ContactPageTemplate = ({
                 <MapPin /> {address}
               </a>
             )}
-            {phone && (
-              <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                <Smartphone /> {phone}
-              </a>
-            )}
+
             {email && (
               <a className="Contact--Details--Item" href={`mailto:${email}`}>
                 <Mail /> {email}
@@ -81,11 +71,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        featuredImage {
-          ...FluidImage
-        }
         address
-        phone
         email
       }
     }

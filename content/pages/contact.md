@@ -2,19 +2,17 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: /images/uploads/paint2.jpg
-subtitle: Contact Page has a subtitle
-address: '404 James St, Burleigh Heads QLD 4220'
-phone: 0987 123 456
-email: example@example.com
+subtitle: Have a request for writing? Fanfiction or original?
+address: 'Australia'
+
+email: francescacosta19@gmail.com
 ---
 
-# Example contact form
+## Feel Free to Contact me
 
-This form is setup to use Netlify's form handling:
+Feel free to send requests
 
-- the form action is set to the current absolute url: `action: '/contact/'`
-- a name attribute is sent with the form's data `'form-name': 'Contact'`
-- netlify data attributes are added to the form `data-netlify data-netlify-honeypot`
-
-Find out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).
+- Want a new chapter of a certain of my fan fictions?
+- Want me to write a particular fan fiction?
+- Want to request another idea?
+- Feel free to send requests through for my pondering and approval
