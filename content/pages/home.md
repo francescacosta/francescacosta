@@ -1,9 +1,8 @@
 ---
 template: HomePage
 slug: ''
-title: Hello World!
-featuredImage: /images/uploads/paint1.jpg
-subtitle: This is the home page subtitle test
+title: THE WRITINGS OF FRANCESCA
+subtitle: Escape reality with me
 meta:
   title: ''
 ---
