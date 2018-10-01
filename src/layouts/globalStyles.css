@@ -5,8 +5,8 @@
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #ff3d3d;
-  --font-primary: 'Open Sans', sans-serif;
-  --font-system: system-ui; /* postcssPresetEnv */
+  --font-primary: 'din-condensed';
+  --font-secondary: 'beloved-script';
   --borderRadius: 3px;
 }
 
@@ -51,6 +51,15 @@ h5,
 h6 {
   margin: 0;
   margin-bottom: 0.5em;
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: black;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 100px;
 }
 
 pre {
