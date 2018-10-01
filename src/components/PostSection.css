@@ -8,24 +8,6 @@
   align-items: stretch;
 }
 
-.PostSection--Grid > * {
-  width: calc(33.33% - 2rem);
-  margin-bottom: 4rem;
-}
-
-@supports (display: grid) {
-  .PostSection--Grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4rem;
-  }
-
-  .PostSection--Grid > * {
-    width: auto;
-    margin: 0;
-  }
-}
-
 .PostSection--Title {
   width: 100%;
   max-width: 200px;

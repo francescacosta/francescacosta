@@ -12,14 +12,13 @@ import './SinglePost.css'
 export const SinglePostTemplate = ({
   title,
   date,
-  featuredImage,
   body,
   nextPostURL,
   prevPostURL,
   categories = []
 }) => (
   <article
-    className="SinglePost section light"
+    className="SinglePost section"
     itemScope
     itemType="http://schema.org/BlogPosting"
   >
@@ -27,14 +26,14 @@ export const SinglePostTemplate = ({
       <title>{title}</title>
     </Helmet>
 
-    {featuredImage && (
+    {/* {featuredImage && (
       <Image
         background
         className="SinglePost--BackgroundImage"
         src={featuredImage}
         alt={title}
       />
-    )}
+    )} */}
 
     <div className="container skinny">
       <Link className="SinglePost--BackButton" to="/blog/">
@@ -131,9 +130,6 @@ export const pageQuery = graphql`
         date
         categories {
           category
-        }
-        featuredImage {
-          ...FluidImage
         }
       }
     }
