@@ -35,14 +35,8 @@ export default class Nav extends Component {
             <NavLink to="/" exact>
               Home
             </NavLink>
-            <NavLink to="/about/" exact>
-              About
-            </NavLink>
             <NavLink to="/blog/" exact>
-              Blog
-            </NavLink>
-            <NavLink to="/default/" exact>
-              Default
+              Writings
             </NavLink>
             <NavLink to="/contact/" exact>
               Contact
